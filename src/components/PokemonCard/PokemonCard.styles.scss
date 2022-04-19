@@ -1,0 +1,54 @@
+$gray: hsl(0, 0%, 59%);
+.card{
+    height: 100vh;
+    display: flex   ;
+    justify-content:center;
+    align-items: center;
+}
+.target{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 16px;
+    &__head{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+}
+.target__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__text{
+        font-size: 1.6rem;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        color: $gray;
+    }
+}
+.target__body__img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: calc(-100px - 5px);
+    background-color: white;
+}
+.h1{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+.target__body__span{
+    color: $gray;
+    font-weight: 400;
+}
+.target__footer{
+    display: flex;
+    justify-content: space-around;
+    &__social{
+        text-align: center;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+    }
+}
