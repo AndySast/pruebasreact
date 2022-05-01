@@ -8,12 +8,12 @@ const Pokemoncard = (props) => {
       <div className="target">
         <img
           src="https://card-poke-simple.netlify.app/images/bg-pattern-card.svg"
-          className="target__head"
+          className="target__head" alt=""
         />
         <div className="target__body">
           <img
             className="target__body__img"
-            src={data.image}
+            src={data.image} alt=""
           />
           <h1>
             {data.name} <span className="target__body__span">{`${data.stats[0].base_stat}${data.stats[0].name}`}</span>
