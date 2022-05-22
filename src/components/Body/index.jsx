@@ -1,2 +1,2 @@
-import Body from "./body";
+import Body from "./Body";
 export default Body;
